@@ -1,0 +1,1 @@
+git@github.com:blineev/posmotri-v-okno-fd.git
