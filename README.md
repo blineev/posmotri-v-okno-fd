@@ -1,1 +1,1 @@
-git@github.com:blineev/posmotri-v-okno-fd.git
+https://github.com/blineev/posmotri-v-okno-fd.git
