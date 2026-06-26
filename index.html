@@ -23,7 +23,7 @@
               <span class="search-form__label-text visually-hidden">Город</span>
               <input
                 type="text"
-                placeholder="Санкт Петербург, например"
+                placeholder="Санкт-Петербург, например"
                 name="city"
                 class="search-form__textfield"
               />
@@ -32,31 +32,34 @@
           <fieldset class="search-form__fieldset">
             <h2 class="search-form__fieldset-title">Время суток</h2>
             <div class="search-form__checkbox-list">
-              <label class="search-form__label">
+              <label class="search-form__label" for="morning">
                 <input
                   type="checkbox"
                   name="time"
                   value="morning"
+                  id="morning"
                   class="search-form__checkbox visually-hidden"
                 />
                 <span class="search-form__pseudo-checkbox"></span>
                 <span class="search-form__label-text">Утро</span>
               </label>
-              <label class="search-form__label">
+              <label class="search-form__label" for="afternoon">
                 <input
                   type="checkbox"
                   name="time"
                   value="afternoon"
+                  id="afternoon"
                   class="search-form__checkbox visually-hidden"
                 />
                 <span class="search-form__pseudo-checkbox"></span>
                 <span class="search-form__label-text">День</span>
               </label>
-              <label class="search-form__label">
+              <label class="search-form__label" for="night">
                 <input
                   type="checkbox"
                   name="time"
                   value="night"
+                  id="night"
                   class="search-form__checkbox visually-hidden"
                 />
                 <span class="search-form__pseudo-checkbox"></span>
@@ -108,7 +111,7 @@
       </li>
     </template>
     <template class="more-button-template">
-      <button class="button more-button">Показать еще</button>
+      <button class="button more-button">Показать ещё</button>
     </template>
 
     <template class="error-template">
